@@ -187,7 +187,7 @@
   state: present
 
 - name: Instalando Docker-ce
-  apt: pkg=docker-ce state=latest update_cache=yes cache_valid_time={{ aptcachetime }}
+  apt: pkg=docker.io state=latest update_cache=yes cache_valid_time={{ aptcachetime }}
 
 
 
