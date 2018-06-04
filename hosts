@@ -1,0 +1,5 @@
+[local]
+localhost       ansible_connection=local
+
+[teste]
+172.19.1.190 ansible_ssh_port=22 ansible_ssh_user=adriano ansible_ssh_pass=123456

@@ -1,0 +1,11 @@
+---
+# handlers file for desktop
+
+- name: Generate locales
+  command: locale-gen
+
+- name: Update TimeZone data
+  command: dpkg-reconfigure --frontend noninteractive tzdata
+
+- name: openvpn restart
+  service: name=openvpn state=restarted

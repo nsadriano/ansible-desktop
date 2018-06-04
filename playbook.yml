@@ -1,0 +1,5 @@
+- name: Ubuntu desktop
+  #hosts: localhost
+  hosts: teste
+  roles:
+    - { role: desktop, become: true}

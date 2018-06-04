@@ -1,0 +1,15 @@
+---
+
+aptcachetime: 3600
+
+my_package_url: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+my_package_name: google-chrome
+
+locale: "pt_BR.UTF-8"
+
+timezone: "America/Fortaleza"
+
+teamviewer_version: 2017
+
+openvpn_etcdir: /etc/openvpn
